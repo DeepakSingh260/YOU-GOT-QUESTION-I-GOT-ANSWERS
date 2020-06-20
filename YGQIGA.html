@@ -2,14 +2,56 @@
 <html>
 <head>
 	<title>YGQIGA</title>
+	
 	<link rel="stylesheet" type="text/css" href="ygqiga.css">
+
 	<script type="text/javascript" src="ygqiga.js"></script>
 </head>
 <body>
-<div class="problem">
-	<img src="Logo.png" width="200" height="200">	
+	<div class="problem" >
+	<img src="Logo.png" width="200" height="200" >	
 	<span style="line-height: 50px" style="font-size: 100px" >Feel Free to Write your questions</span>
 </div>
+    
+<br>
 <p>Your question will be answered within 24 hour</p>
+<nav class="navbar">
+	<span class="open-slide">
+		<a href="#" onclick="openSlideMenu()">
+			
+			<svg width = "30" height = "30">
+				<path d = "M0 ,5,30,5" stroke ='#fff'
+					stroke-width = "5"/>
+				<path d = "M0 ,14,30,14" stroke ='#fff'
+					stroke-width = "5"/>	
+				<path d = "M0 ,23,30,23" stroke ='#fff'
+					stroke-width = "5"/>
+			</svg>			
+
+		</a>
+	</span>
+	
+		<ul class="navbar-nav">
+			<li><a href="#">HOME </a></li>
+			<li><a href="#">Q&A </a></li>
+			<li><a href="#">BLOGS </a></li>
+			<li><a href="#">PROJECTS </a></li>
+			<li><a href="#">HELP </a></li>
+
+
+		</ul>	
+	
+</nav>
+<div id="side-menu" class="side-nav">
+	<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+	<a href="#">Home</a>
+	<a href="#">Q&A</a>
+	<a href="#">Blogs</a>
+	<a href="#">Projects</a>
+	<a href="#">Help</a>	
+
+</div>
+
+
 </body>
 </html>
