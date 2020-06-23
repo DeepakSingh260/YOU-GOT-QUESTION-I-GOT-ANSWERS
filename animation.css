@@ -9,7 +9,7 @@
 	left : 0;
 	width: 100%;
 	height: 100vh;
-	background : linear-gradient(to left,#037af4e0,#00a1ff);
+	background : linear-gradient(to left,#2f6179e0,#9e9e9ed1);
 	z-index: -1;
 }
 .MySite{
@@ -32,6 +32,7 @@ nav a{
 	grid-column: 2/3;
 	font-size: 30px;
 	justify-self:end;
+	padding: 0 20px 0 0;
 
 }
 .MySite{
