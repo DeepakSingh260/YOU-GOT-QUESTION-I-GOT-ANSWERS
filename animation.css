@@ -80,6 +80,25 @@ section{
 	opacity: 0.3;
 }
 
+.boxes{
+	position: : absolute;
+	height: 80%;
+	width :80%;
+	margin : 240px auto;
+	background: #000;
+}
+
+.boxes .box{
+
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+	background: #f2f2f2;	
+	float: left;
+	margin: 15px;
+
+}
+
 
 
 
