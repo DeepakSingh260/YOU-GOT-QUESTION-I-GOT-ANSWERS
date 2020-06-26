@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Store</title>
+</head>
+<body>
+	<div id="Store"></div>
+	<a href="file:///Users/deepaksingh/Desktop/My%20Website/QandA/QandA.html">Back to form</a>
+	<script type="text/javascript">
+		const resultsList = document.getElementById('Store') 
+		new URLSearchParams(window.location.search).forEach((value ,name)=>{
+			resultsList.append('${name}:${value}')
+			resultsList.append(document.createElement('br'))
+		})
+
+	</script>
+</body>
+</html>

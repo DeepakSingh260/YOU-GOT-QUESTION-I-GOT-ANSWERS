@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QandA</title>
+	
+	<link rel="stylesheet" type="text/css" href="qanda.css">
+	<link rel="stylesheet" type="text/css" href="qandans.css">
+	<script type="text/javascript" src="qanda.js"></script>
+</head>
+<body>
+
+
+<div class="container">
+	<div class="msg-header">
+		<div class="msg-header-img">
+			<img src="LOGO.png">
+		</div>
+		<div class="active">
+			<h1>
+				You Got Questions I Got Answer
+			</h1>
+		</div>
+	</div>	
+
+</div>
+    
+<br>
+<p>Your question will be answered within 24 hour</p>
+<nav class="navbar">
+	<span class="open-slide">
+		<a href="#" onclick="openSlideMenu()">
+			
+			<svg width = "30" height = "30">
+				<path d = "M0 ,5,30,5" stroke ='#fff'
+					stroke-width = "5"/>
+				<path d = "M0 ,14,30,14" stroke ='#fff'
+					stroke-width = "5"/>	
+				<path d = "M0 ,23,30,23" stroke ='#fff'
+					stroke-width = "5"/>
+			</svg>			
+
+		</a>
+	</span>
+	
+		<ul class="navbar-nav">
+			<li><a href="file:///Users/deepaksingh/Desktop/My%20Website/Home/homepage.html">HOME </a></li>
+			<li><a href="#">Q&A </a></li>
+			<li><a href="file:///Users/deepaksingh/Desktop/My%20Website/Blog/Blog.html">BLOGS </a></li>
+			<li><a href="file:///Users/deepaksingh/Desktop/My%20Website/Projects/Project.html">PROJECTS </a></li>
+			<li><a href="file:///Users/deepaksingh/Desktop/My%20Website/Help/Help.html">HELP </a></li>
+
+
+		</ul>	
+	
+</nav>
+<div id="side-menu" class="side-nav">
+	<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+	<a href="file:///Users/deepaksingh/Desktop/My%20Website/Home/homepage.html">Home</a>
+	<a href="#">Q&A</a>
+	<a href="file:///Users/deepaksingh/Desktop/My%20Website/Blog/Blog.html">Blogs</a>
+	<a href="file:///Users/deepaksingh/Desktop/My%20Website/Projects/Project.html">Projects</a>
+	<a href="file:///Users/deepaksingh/Desktop/My%20Website/Help/Help.html">Help</a>	
+
+</div>
+<h1 class="head">Submit Your Question</h1>
+	<form>
+		<table>
+			<tr>
+				<td>
+					Questions :
+				</td>
+				<td>
+					<input type="text" placeholder="Question" name="">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Tags:
+				</td>
+				<td>
+					<input type="radio" name="Tags">c++
+					<input type="radio" name="Tags">python
+					<input type="radio" name="Tags">java
+					<input type="radio" name="Tags">HTML 5
+					<input type="radio" name="Tags">other
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="Submit" value="Submit" name="">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
